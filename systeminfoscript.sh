@@ -4,7 +4,7 @@ echo "========= System Information ========="
 echo
 
 #Get my internal IP address
-echo -e "Internal IP Address:" 
+echo "Internal IP Address:" 
 ifconfig | grep broadcast | awk '{print $2}'
 echo
 
